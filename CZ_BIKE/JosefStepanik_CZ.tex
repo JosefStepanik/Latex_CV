@@ -2,37 +2,46 @@
 % \usepackage{bookman}
 % \usepackage{helvet}  %chybí tučný řez u strojového písma
 \usepackage{palatino}
-% \usepackage{tgpagella}
-% \usepackage[latin2]{inputenc} % pro iso8859-2
 \usepackage[utf8]{inputenc}   % pro unicode UTF-8
-% \usepackage[cp1250]{inputenc} % pro win1250
 \usepackage[IL2]{fontenc}
 \usepackage[czech]{babel}
 \usepackage{a4wide}
 \usepackage{amsmath,amsfonts,amssymb,graphicx}
 \usepackage{wrapfig}
+\usepackage{hyperref}
+\usepackage{fontawesome}
+\usepackage{academicons}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=blue,
+    urlcolor=blue,
+    citecolor=blue
+}
+
 
 \begin{document}
 
-\noindent\hrulefill
-
-\begin{wrapfigure}{r}{0.35\textwidth}
-\vspace{-1cm}
-%\includegraphics[width=0.2\textwidth]{foto.jpg}
-\end{wrapfigure}
-
-\vskip 0,5cm
+\begin{center}
+\textbf{\LARGE Ing. Josef Štěpáník} \\
+\end{center}
 
 \textbf{Osobní informace} 
+
 \begin{tabbing}
     \hspace{6cm}\= \kill
     Jméno: \> Ing. Josef Štěpáník \\
     Adresa trvalého bydliště: \> Kejnice 6, 341 01 Horažďovice \\
     Místo pobytu: \> Žitná 1731/44, 621 00 Brno-Řečkovice \\
     Telefon: \> +420 724 160 236 \\
-    Email: \> stepjo.hd@gmail.com \\
+    Email: \> \faEnvelope \ \href{mailto:stepjo.hd@gmail.com}{stepjo.hd@gmail.com} \\
     Datum narození: \> 5. 4. 1988 \\
     Místo narození: \> Sušice \\
+    Instagram: \>  \faInstagram \ \href{https://www.instagram.com/josef_stepanik/}{josef\_stepanik} \\
+    Web: \>  \faGlobe \ \href{https://www.josefstepanik.cz/}{josefstepanik.cz} \\
+    LinkedIn: \>  \faLinkedin \ \href{https://www.linkedin.com/in/josef-štěpáník-30106174/}{Josef Štěpáník} \\
+    Strava: \>  \href{https://www.strava.com/athletes/40559859}{Josef Stepanik} \\
 \end{tabbing}
 
 \noindent\hrulefill
